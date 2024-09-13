@@ -1,0 +1,24 @@
+.result{
+    margin: 0 40px 20px 40px;
+
+}
+.mainContainer label,.mainContainer select{
+    margin: 0.5rem 0;
+}
+.mainContainer label{
+    color:var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+}
+.mainContainer p{
+    color: var(--grey);
+}
+.mainContainer input:focus,.mainContainer select:focus{
+    outline: 3px solid var(--green);
+    outline-offset: -3px;
+    border-radius: 3px;
+}
+.bar p{
+    font-size: 1.2rem;
+    color: var(--green);
+}

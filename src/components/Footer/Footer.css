@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    color: var(--white);
+}
+.heading{
+    text-align: center;
+    padding: 30px 0;
+    word-spacing: 0.5rem;
+}
+.links{
+    font-size: 1.6rem;
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.link{
+    text-decoration: none;
+}
+.line{
+    margin: 30px 70px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box a{
+    padding: 0.7rem 0;
+}
+.container{
+    margin: 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.box a{
+    color: var(--grey);
+}
+.email-ipt{
+    background-color: transparent;
+    height: 60px;
+    width: 75%;
+    border: 2px solid var(--white);
+    border-radius: 2px 0px 0px 0px;
+    padding-left: 10px;
+}
+.footerForm input::placeholder{
+    color: var(--white);
+    font-size: 1rem;
+    
+}
+.footerForm{
+    padding-top: 20px;
+}
+.submit-btn{
+    background-color: var(--white);
+    color: var(--black);
+    height: 60px;
+    width: 20%;
+    border: 2px solid var(--white);
+    border-radius: 0 2px 2px 0;
+    font-weight: 500;
+}
+.box4{
+    width :40%;
+}
+.container a:hover{
+    color: var(--green);
+}
+.submit-btn:hover{
+    box-shadow: 0 0 7px var(--white);
+}
+.email-ipt:focus{
+    box-shadow: 0 0 7px var(--white);
+    outline: none;
+}
+.link2{
+    text-decoration: none;
+}
+.links2{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    margin: 20px auto;
+
+}
+.links2 a , .links2 span {
+    color: var(--grey);
+}
+.links2 a:hover{
+    color: var(--green);
+}
+.lastline{
+    margin-top: 20px;
+    height: 40px;
+    background-color: var(--grey);
+    text-align: center;
+}
+.lastline p{
+    padding: 10px;
+    color: var(--black);
+}
+.lastline div{
+    display: flex;
+    justify-content: end;
+}

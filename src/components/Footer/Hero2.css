@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero-section {
+    height: 70vh;
+    margin: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-card {
+    height: 26rem;
+    width: 30%;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.hero-text {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    backdrop-filter: blur(5px);
+    color: var(--white);
+    outline: none;
+    line-height: 1.5rem;
+    padding: 100px 50px;
+    transition: 0.7s;
+}
+
+.hero-button {
+    color: white;
+    background-color: var(--green);
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 20%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#individuals:hover .hero-text ,
+#business:hover .hero-text ,
+#schools:hover .hero-text {
+    opacity: 1;
+}
+
+.hero-section h1 {
+    text-decoration:1px  underline;
+    text-underline-offset: 8px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.hero-card .display-txt {
+    z-index: 100;
+    font-size: 1000px;
+}
