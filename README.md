@@ -1,1 +1,2 @@
+EcoCoin- frontend part
 
